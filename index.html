@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <script src="https://kit.fontawesome.com/8155923e39.js" crossorigin="anonymous"></script>
+    <nav id="desktop-nav">
+        <div class="icon">ISMAIL EL BAHAOUI</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#">Experience</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="humburger-nav">
+        <div class="icon">
+            ISMAIL EL BAHAOUI
+        </div>
+        <div class="humburger-menu">
+            <div class="humburger-icon"><i class="fa-solid fa-bars"  onclick="toggleMenu()"></i>
+            </div>
+            <div class="menu-links">
+                <li><a href="#" onclick="toggleMenu()">About</a></li>
+                <li><a href="#" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="welcome">
+        <div id="welcome-container">
+            <div class="picture">
+                <img src="assets/welcome-pic.png" alt="welcome-picture">
+            </div>
+            <div class="text">
+                <p class="hello">Hello World, I'm</p>
+                <h1 class="title">Ismail EL Bahaoui</h1>
+                <p class="developer">FullStack Developer</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-1" onclick="window.open('./assets/mycv.pdf')">See Cv</button>
+                    <button class="btn btn-color-2">Contact Me</button>
+                </div>
+                <div class="social-container">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-square-github"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="picture">
+                <img src="assets/education.png" alt="education picture">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h3>Education</h3>
+                        <p>Téchnicien Spécialisé Developpement web full stack.</p>
+                    </div>
+                    <div class="text-container">
+                        <p>
+                            I am a specialized technician, holding a diploma from ISTA Temara in Full Stack Web Development. This program equipped me with comprehensive skills in various facets of web development, providing a solid foundation in both front-end and back-end technologies, enabling me to navigate and contribute effectively across the entire spectrum of web development processes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="experience">
+        <p class="hello">Discover</p>
+        <h1 class="title">My Experience</h1>
+        <div class="fullStack">
+            <div class="front-end-side">
+                <h2>Frontend Development</h2>
+                <div class="skills">
+                    <div class="skill">
+                        <i class="fa-regular fa-circle-check"></i>
+                        <p>HTML</p>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-regular fa-circle-check"></i>
+                        <p>CSS</p>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-regular fa-circle-check"></i>
+                        <p>Java Script</p>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-regular fa-circle-check"></i>
+                        <p>Bootstrap</p>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-regular fa-circle-check"></i>
+                        <p>React Js</p>
+                    </div>
+                </div>
+            </div>
+            <div class="horizental-line"></div>
+            <div class="back-end-side">
+                <h2>Backtend Development</h2>
+                <div class="skills">
+                    <div class="skill">
+                        <i class="fa-regular fa-circle-check"></i>
+                        <p>My SQL</p>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-regular fa-circle-check"></i>
+                        <p>Mongo DB</p>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-regular fa-circle-check"></i>
+                        <p>PHP</p>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-regular fa-circle-check"></i>
+                        <p>Laravel</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <p class="hello">Discover</p>
+        <h1 class="title">My Previous Projects</h1>
+        <div class="projects-container">
+            <div class="line">
+                <div class="project project1">
+                    <div class="infos-card">
+                        <div class="img">
+                            <img src="assets/project1.png" alt="err" class="project-img">
+                        </div>
+                        <h3>Project1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, eaque dignissimos? Iste facere aspernatur, nostrum similique velit quia itaque minus!</p>
+                    </div>
+                    <div class="btn-container">
+                        <button class="btn btn-color-1">
+                            Github Code
+                        </button>
+                        <button class="btn btn-color-1">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="project project2">
+                    <div class="infos-card">
+                        <div class="img">
+                            <img src="assets/project2.jpg" alt="err" class="project-img">
+                        </div>
+                        <h3>Project2</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, quis unde optio rerum animi sunt reiciendis consectetur praesentium doloremque error?</p>
+                    </div>
+                    <div class="btn-container">
+                        <button class="btn btn-color-1">
+                            Github Code
+                        </button>
+                        <button class="btn btn-color-1">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="line">
+                <div class="project project3">
+                    <div class="infos-card">
+                        <div class="img">
+                            <img src="assets/project3.jpg" alt="err" class="project-img">
+                        </div>
+                        <h3>Project3</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, pariatur libero? Assumenda iste perspiciatis vero, voluptatibus laboriosam qui cum beatae.</p>
+                    </div>
+                    <div class="btn-container">
+                        <button class="btn btn-color-1">
+                            Github Code
+                        </button>
+                        <button class="btn btn-color-1">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="project project4">
+                    <div class="infos-card">
+                        <div class="img">
+                            <img src="assets/project4.png" alt="err" class="project-img">
+                        </div>
+                        <h3>Project4</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem expedita praesentium consectetur quaerat error assumenda repudiandae ad suscipit aliquam natus.</p>
+                    </div>
+                    <div class="btn-container">
+                        <button class="btn btn-color-1">
+                            Github Code
+                        </button>
+                        <button class="btn btn-color-1">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
